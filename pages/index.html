@@ -3,10 +3,136 @@
   <%- include('./layout/head'); -%>
 
   <body>
-    <div class="container">
+    <div class="content index">
       <%- include('./layout/sidebar'); -%>
       <div class="main">
         <%- include('./layout/header'); -%>
+        <div class="container">
+          <div class="flex-jcsb-aic">
+            <div class="select">
+              <p>All(4)</p>
+              <span class="material-icons arrow">expand_more</span>
+            </div>
+            <span class="comments-num">2 comments</span>
+          </div>
+
+          <div class="assignment">
+            <div class="left">
+              <div class="box bg-gray-400 border-radius-t-r-2">
+                <div class="sidetitle">
+                  <span>Chapter Assignment 2</span>
+                  <span>4 hrs ago</span>
+                </div>
+                <div class="title">
+                  <p>Please check this file…</p>
+                  <span>Emily Wang</span>
+                </div>
+              </div>
+              <div class="box">
+                <div class="sidetitle">
+                  <span>Chapter Assignment 1</span>
+                  <span>12 hrs ago</span>
+                </div>
+                <div class="title">
+                  <p>My Homework</p>
+                  <span>David Xu</span>
+                </div>
+              </div>
+              <div class="box">
+                <div class="sidetitle">
+                  <span>Final Assignment</span>
+                  <span>18 hrs ago</span>
+                </div>
+                <div class="title">
+                  <p>Have a problem with this…</p>
+                  <span>Tony Wei</span>
+                </div>
+              </div>
+              <div class="box border-radius-b-l-2">
+                <div class="sidetitle">
+                  <span>Final Assignment</span>
+                  <span>19 hrs ago</span>
+                </div>
+                <div class="title">
+                  <p>Did I do it right?</p>
+                  <span>Christina Lin</span>
+                </div>
+              </div>
+            </div>
+  
+            <div class="right">
+              <div class="box">
+                <div class="title">
+                  <div class="text">
+                    <span>Chapter Assignment 2 / HTML&CSS</span>
+                    <p>Please check this file for me, thanks!</p>
+                  </div>
+                  <span class="material-icons">more_vert</span>
+                </div>
+                <div class="msg-content">
+                  <div class="img">
+                    <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week5/emilywang.jpeg?raw=true" alt="user profile pic">
+                  </div>
+                  <div class="msg-text border-bottom">
+                    <div class="name-time">
+                      <p>Emily Wang</p>
+                      <span>10:38 AM (4 hours ago)</span>
+                    </div>
+                    <p class="msg">
+                      Hi Teacher, the attached file is my homework of chapter 2. And here comes a question: Why in the following code the height of the <span class="mark">div</span> is bigger than the height of the <span class="mark">img</span> ? There is a gap below the image, but it doesn’t seems to be a padding/margin. <br>What is the gap or extra space below image?
+                    </p>
+                    <a href="#" class="file">
+                      <div class="file-box">
+                        <span class="material-icons file-icon">attach_file</span>
+                        <span class="file-text">HW-2-David.zip</span>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="msg-content">
+                  <div class="img">
+                    <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week5/andychen.jpeg?raw=true" alt="user profile pic">
+                  </div>
+                  <div class="msg-text">
+                    <div class="name-time">
+                      <p>Andy Chen (You)</p>
+                      <span>13:24 AM (1 hours ago)</span>
+                    </div>
+                    <p class="msg">
+                      Hi David, by default, an image is rendered inline, like a letter so it sits on the same line that a, b, c and d sit on. There is space below that line for the descenders you find on letters like g, j, p and q. 
+                      <br>
+                      <br>
+                      You can: 
+                      <br>
+                    </p>
+                    <p class="msg text-indent-1">
+                      • adjust the <span class="mark">vertical-align</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;of the image to position it elsewhere (e.g. the <span class="mark">middle</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ) or 
+                    </p>
+                    <p class="msg text-indent-1">
+                      • change the <span class="mark">display</span>&nbsp;&nbsp; so it isn’t inline.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="bottom-nav">
+                <div class="page-arrows">
+                  <a href="#">
+                    <span class="material-icons d-i-b">chevron_left</span>
+                  </a>
+                  <a href="#">
+                    <span class="material-icons d-i-b">navigate_next</span>
+                  </a>
+                </div>
+                <div class="buttons">
+                  <a href="#" class="out-line">Mark as read</a>
+                  <a href="#" class="filled">Reply</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
 
