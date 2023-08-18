@@ -3,12 +3,12 @@
   <%- include('./layout/head'); -%>
 
   <body>
-    <%- include('./layout/header'); -%>
-
-    <h1 class="index-title">我是首頁</h1>
-    <img src="../assets/images/cat.jpg" style="width: 300px;" alt="cat">
-
-    <%- include('./layout/footer'); -%>
+    <div class="container">
+      <%- include('./layout/sidebar'); -%>
+      <div class="main">
+        <%- include('./layout/header'); -%>
+      </div>
+    </div>
 
     <script type="module" src="../main.js"></script>
   </body>
