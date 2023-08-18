@@ -1,4 +1,37 @@
 .header{
-  background: #69F0AE;
-  font-size: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 32px 32px;
+
+  .box, .box ul {
+    display: flex;
+    align-items: center;
+  }
+
+  .select {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    font-weight: bold;
+  }
+  span {
+    display: block;
+  }
+  .select-text{
+    margin-right: 9px;
+  }
+  .arrow {
+    color: $success;
+  }
+
+  li {
+    margin-left: 26.03px;
+  }
+  a{
+    color: $gray-900;
+    span {
+      font-size: 24px;
+    }
+  }
 }
